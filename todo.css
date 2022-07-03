@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arima', cursive;
+    background-color: rgb(172, 23, 209);
+}
+
+header,main{
+    margin: 0 2rem;
+}
+header{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.addTask{
+    background-color: aquamarine;  
+}
+form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: auto;
+}
+
+.todo{
+    background-color: aqua;
+    display: inline-block;
+    height: 30rem;
+    width: 33%;
+}
+
+.inProgress{
+    background-color: black;
+    display: inline-block;
+    height: 30rem;
+    width: 33%;
+}
+
+.completed{
+    background-color: brown;
+    display: inline-block;
+    height: 30rem;
+    width: 32%;
+    position: fixed;
+}
+
