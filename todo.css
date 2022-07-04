@@ -5,53 +5,88 @@
 }
 body{
     font-family: 'Arima', cursive;
-    background-color: rgb(172, 23, 209);
+    background-color: rgb(96, 69, 103);
 }
 
-header,main{
-    margin: 0 2rem;
-}
 header{
-    background-color: black;
+    margin: 0.5rem 2rem;
+    background-color: rgb(112, 21, 47);
     color: bisque;
     text-align: center;
     padding: 1rem 0;
+    border: 2px solid rgb(214, 154, 25);
+    border-radius: 2rem;
+}
+
+main{
+    margin: 1rem 2rem;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 .addTask{
-    background-color: aquamarine;  
-}
-form{
-    width: 40%;
+    background-color: aquamarine;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding: 2px;
+    border: 2px solid rgb(29, 21, 169);
+    border-radius: 2rem;  
 }
 
 input{
     display: block;
     margin: auto;
 }
+button{
+    width: 10rem;
+    background-color: #9da89a;
+    border: none;
+    color: #550b0b;
+    font-size: 15px;
+}
 
 .todo{
-    background-color: aqua;
-    display: inline-block;
-    height: 30rem;
-    width: 33%;
+    background-color: rgb(25, 187, 60);
+    height: 25rem;
+    width: 32%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(108, 21, 214);
+    overflow: auto;
 }
 
 .inProgress{
-    background-color: black;
-    display: inline-block;
-    height: 30rem;
-    width: 33%;
+    background-color: rgb(181, 213, 34);
+    height: 25rem;
+    width: 32%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(108, 21, 214);
+    overflow: auto;
 }
 
 .completed{
-    background-color: brown;
-    display: inline-block;
-    height: 30rem;
+    background-color: rgb(22, 211, 186);
+    height: 25rem;
     width: 32%;
-    position: fixed;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 2px solid rgb(108, 21, 214);
+    border-radius: 2rem;
+    overflow: auto;
 }
+
+.completed li{
+    text-decoration: line-through;
+}
+
+h3{
+    text-align: center;
+}
+
 
