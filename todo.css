@@ -4,92 +4,75 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Arima', cursive;
-    background-color: rgb(96, 69, 103);
+    font-family: 'Mukta', sans-serif;
 }
 
 header{
-    margin: 0.5rem 2rem;
-    background-color: rgb(112, 21, 47);
-    color: bisque;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 1rem 0;
-    border: 2px solid rgb(214, 154, 25);
-    border-radius: 2rem;
 }
 
 main{
-    margin: 1rem 2rem;
+    text-align: center;
 }
 
 .inline-block{
     display: inline-block;
 }
 
-.addTask{
-    background-color: aquamarine;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 2px;
-    border: 2px solid rgb(29, 21, 169);
-    border-radius: 2rem;  
-}
-
 input{
     display: block;
     margin: auto;
+    min-width: -webkit-fill-available;
 }
+
 button{
-    background-color: #9da89a;
-    color: #550b0b;
-    font-size: 12px;
+    background-color: #e7f2f1;
+    color: #6eb4a7;
+    font-size: 15px;
+    width: 100%;
+    font-weight: bolder;
+    border: none;
 }
 
 button:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .todo{
-    background-color: rgb(25, 187, 60);
-    height: 25rem;
+    height: 34rem;
     width: 32%;
     margin-top: 1rem;
-    border-radius: 2rem;
+    background-color: #f5f9fa;
     padding: 1rem;
-    border: 2px solid rgb(108, 21, 214);
     overflow: auto;
 }
 
 .inProgress{
-    background-color: rgb(181, 213, 34);
-    height: 25rem;
+    height: 34rem;
     width: 32%;
     margin-top: 1rem;
-    border-radius: 2rem;
+    background-color: #f5f9fa;
     padding: 1rem;
-    border: 2px solid rgb(108, 21, 214);
     overflow: auto;
 }
 
 .completed{
-    background-color: rgb(22, 211, 186);
-    height: 25rem;
+    height: 34rem;
     width: 32%;
     margin-top: 1rem;
+    background-color: #f5f9fa;
     padding: 1rem;
-    border: 2px solid rgb(108, 21, 214);
-    border-radius: 2rem;
     overflow: auto;
 }
 
 .completed li{
     text-decoration: line-through;
+    padding: 10px 0;
 }
 
-h3{
-    text-align: center;
-}
 
 

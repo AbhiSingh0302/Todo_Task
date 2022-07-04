@@ -15,16 +15,16 @@ function addTask() {
     }
 
     let removeTask = document.createElement('Button');
-    let txtnde = document.createTextNode("remove");
-    removeTask.append(txtnde);
+    let removeNode = document.createTextNode("-");
+    removeTask.append(removeNode);
     liTask.append(removeTask);
     removeTask.addEventListener('click', function () {
         liTask.remove();
     });
 
     let startTask = document.createElement('Button');
-    let Txtnde = document.createTextNode("start");
-    startTask.append(Txtnde);
+    let startNode = document.createTextNode("Start");
+    startTask.append(startNode);
     liTask.append(startTask);
     startTask.addEventListener('click', function () {
         let inprog = document.querySelector(".Inprogress");
@@ -32,8 +32,8 @@ function addTask() {
         startTask.style.display = "none";
 
         let doneTask = document.createElement('Button');
-        let txtNde = document.createTextNode("Done");
-        doneTask.append(txtNde);
+        let doneNode = document.createTextNode("Done");
+        doneTask.append(doneNode);
         liTask.append(doneTask);
         doneTask.addEventListener('click', function () {
             let completed = document.querySelector(".Completed");
