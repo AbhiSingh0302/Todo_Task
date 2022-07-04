@@ -41,11 +41,14 @@ input{
     margin: auto;
 }
 button{
-    width: 10rem;
     background-color: #9da89a;
-    border: none;
     color: #550b0b;
-    font-size: 15px;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
 }
 
 .todo{
