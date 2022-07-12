@@ -15,14 +15,18 @@
 
 <body>
     <header>
-        <h1>Projects</h1>
+        <h1>Todo</h1>
     </header>
     <main>
         <article>
+            <section><p>Projects</p></section>
             <section class="todo inline-block">
                 <h2>To-Do</h2>
+                <form action="">
                 <input type="text" id="task" class="margin-auto">
                 <button type="button" id="add" class="margin-auto" onclick="addTask()">+</button>
+                </form>
+                <span id="error"></span>
                 <ol class="toDo">
                 </ol>
             </section>
@@ -40,9 +44,7 @@
             </section>
         </article>
     </main>
-    <script src="todo.js">
-
-    </script>
+    <script src="td.js"></script>
 </body>
 
 </html>
